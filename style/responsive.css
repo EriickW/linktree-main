@@ -1,0 +1,45 @@
+@media screen and (max-width:400px){/*funciona como um if em css ou "se" o desposidivo for menor que 700px ele vai arrumar comforme o indicado abaixo*/ 
+    body .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .botoes{
+        position: relative;
+        width:80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        flex-wrap:wrap;
+    
+    }
+}
+@media screen and (max-width: 780px) {
+    .botoes{
+        position: relative;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        flex-wrap:wrap;
+    
+    }
+    button{
+        background: var(--i);
+        border:none;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        width: 200px;
+        height: 100px;
+        cursor:pointer;
+        font-size: 20px;
+        border: 2px solid var(--i);
+    }
+    }
+  
